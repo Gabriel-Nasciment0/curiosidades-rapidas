@@ -57,7 +57,9 @@ main{
 /*titulo conteudo principal*/
 main>h1{
     text-align: center;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
 }
 /*paragrafo conteudo principal*/
 main>p{
@@ -67,20 +69,19 @@ main>p{
     line-height: 20px;
 }
 /*lista*/
-li{
-    padding-bottom: 10px;
+li{/
+    padding-top: 15px;
+    padding-bottom: 15px;
     list-style-position: inside;
     line-height: 30px;
     text-align: justify;
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: bold;
 }
 /*imagem*/
 img{
     width: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-
 }
 /*rodape*/
 footer{
