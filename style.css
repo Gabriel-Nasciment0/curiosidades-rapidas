@@ -1,9 +1,91 @@
 @charset "utf8";
 
-root{
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+/*variavel*/
+:root{
     --cor01:#011BF5;
     --cor02:#0016DB;
     --cor03:#0012B5;
     --cor04:#000C75;
     --cor05:#000536;
+}
+/*pagina*/
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+}
+/*cabeçalho*/
+header{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(to bottom,#0016DB,#000536);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+/*titulo do cabeçalho*/
+header>h1{
+    padding-top: 50px;
+}
+/*paragrafo do cabeçalho*/
+header>p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width:470px;
+}
+/*link*/
+a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px var(--cor03);
+}
+/*animação do link*/
+a:hover{
+    text-decoration: underline;
+    color:var(--cor05);
+    text-shadow: 1px 1px 1px var(--cor05);
+}
+/*conteudo peincpal*/
+main{
+    background-color: white;
+    max-width: 1050px;
+    min-width: 400px;
+}
+/*titulo conteudo principal*/
+main>h1{
+    text-align: center;
+    padding: 5px;
+}
+/*paragrafo conteudo principal*/
+main>p{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+/*lista*/
+li{
+    padding-bottom: 10px;
+    list-style-position: inside;
+    line-height: 30px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*imagem*/
+img{
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+/*rodape*/
+footer{
+    background-color: var(--cor02);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
